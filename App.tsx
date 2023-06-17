@@ -21,12 +21,12 @@ function BatteryStatus(): JSX.Element {
         let lowerLimit: any = await AsyncStorage.getItem("@storage_key_lowerBatteryLimit");
         console.log('READ1', lowerLimit);
         if (lowerLimit == null) { lowerLimit = defaultLower };
-        setChangeLowerLimit(lowerLimit); // ignore error, this is lib error
+        setChangeLowerLimit(lowerLimit);
 
         let upperLimit: any = await AsyncStorage.getItem("@storage_key_upperBatteryLimit");
         console.log('READ2', upperLimit);
         if (upperLimit == null) { upperLimit = defaultUpper };
-        setChangeUpperLimit(upperLimit); // ignore error, this is lib error
+        setChangeUpperLimit(upperLimit);
 
       } catch (err) {
         console.log(err);
@@ -35,7 +35,7 @@ function BatteryStatus(): JSX.Element {
     getData_Once_from_AsyncStorage();
   }, []); // Does not render during getting values, so give []
 
-
+  // ignore error, this is lib error
   let batteryLevelStr: string = useBatteryLevel()?.toFixed(2) * 100 + '%';
 
   playSound(soundStatus, batteryLevelStr, lowerBatteryLimit, upperBatteryLimit);
