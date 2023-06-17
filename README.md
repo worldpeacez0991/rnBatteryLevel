@@ -1,6 +1,6 @@
 ### React Native Battery Level Alarm Example
 
-<img src="rnBatteryLevel_OFF.jpeg" height="500"/><img src="rnBatteryLevel_ON.jpeg" height="500"/>
+<img src="rnBatteryLevel_OFF.jpeg" height="500"/> <img src="rnBatteryLevel_ON.jpeg" height="500"/>
 
 ## Installation
 > yarn add react-native-device-info  
