@@ -19,7 +19,7 @@ node_modules\@gemedico\react-native-sounds\android\build.gradle - Edited :15 to 
 ## Run Release APK on emulator/phone
 > source Build_Release_APK.sh
 
-For Release version of APK, upon clicking on your app icon to boot up, you will NOT see a black screen for few seconds on first launch, the app will boot/start up in less than 1 second, and then you will see the splash screen immediately.
+For Release version of APK, this speeds up the app boot time.
 
 ## How to use?
 1. Plug in your charger to your phone and open this app.
