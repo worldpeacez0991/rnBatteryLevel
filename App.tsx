@@ -28,9 +28,6 @@ function BatteryStatus(): JSX.Element {
         if (upperLimit == null) { upperLimit = defaultUpper };
         setChangeUpperLimit(upperLimit); // ignore error, this is lib error
 
-        // const upperBatteryLimit = await AsyncStorage.getItem("@storage_key_upperBatteryLimit");
-        // setChangeUpperLimit(upperBatteryLimit);  // ignore error, this is lib error
-
       } catch (err) {
         console.log(err);
       }
@@ -63,7 +60,6 @@ function BatteryStatus(): JSX.Element {
               if (soundStatus.toUpperCase() === 'ON') {
                 RNSounds.beep(false);
                 StopSysSound();
-                // FIXED, beep sound off when i unplug charging cable
                 setChangeSoundStatus('OFF');
               } else {
                 setChangeSoundStatus('ON');
@@ -135,7 +131,6 @@ function StopSysSound() {
 // </SafeAreaView>
 function App(): JSX.Element {
 
-  // FIXED, beep sound off when i start app
   StopSysSound();
 
   return (
