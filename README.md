@@ -38,9 +38,9 @@ This could be due to the nature of the plugin '@gemedico/react-native-sounds' i 
 
 ## License
 
-Library 'react-native-device-info' is licensed under [The MIT License](https://mit-license.org/). 
-Library '@gemedico/react-native-sounds' is licensed under [The MIT License](https://mit-license.org/). 
-Library '@react-native-async-storage/async-storage' is licensed under [The MIT License](https://mit-license.org/). 
+Library 'react-native-device-info' is licensed under [The MIT License](https://mit-license.org/).  
+Library '@gemedico/react-native-sounds' is licensed under [The MIT License](https://mit-license.org/).  
+Library '@react-native-async-storage/async-storage' is licensed under [The MIT License](https://mit-license.org/).  
 
 ## Credits
 
