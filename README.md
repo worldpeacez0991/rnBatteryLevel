@@ -12,7 +12,8 @@ Files edited:
 
 ## Resolve Error :  "AAPT: error: resource android:attr/lStar not found."
 node_modules\@gemedico\react-native-sounds\android\build.gradle - Edited :19 to :20
-```        minSdkVersion 16
+```        
+        minSdkVersion 16
         targetSdkVersion 28
 ```
 ## Run Release APK on emulator/phone
