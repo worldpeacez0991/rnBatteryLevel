@@ -1,6 +1,5 @@
-### React Native Battery Level Example
+### React Native Battery Level Alarm Example
 
-React Native Battery Level
 <img src="rnBatteryLevel_OFF.jpeg" height="500"/>
 <img src="rnBatteryLevel_ON.jpeg" height="500"/>
 
@@ -21,6 +20,11 @@ node_modules\@gemedico\react-native-sounds\android\build.gradle - Edited :19 to 
 > source Build_Release_APK.sh
 
 For Release version of APK, upon clicking on your app icon to boot up, you will NOT see a black screen for few seconds on first launch, the app will boot/start up in less than 1 second, and then you will see the splash screen immediately.
+
+## How to use?
+When you first open the app, your phone will ring off, this is the sound, you will hear ;
+1. When battery level is lower than Battery Lower Limit
+2. When battery level is higher than Battery Upper Limit
 
 ## License
 
