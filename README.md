@@ -11,10 +11,10 @@ Files edited:
 1. App.tsx
 
 ## Resolve Error :  "AAPT: error: resource android:attr/lStar not found."
-node_modules\@gemedico\react-native-sounds\android\build.gradle - Edited :19 to :20
+node_modules\@gemedico\react-native-sounds\android\build.gradle - Edited :15 to :16
 ```        
-        minSdkVersion 16
-        targetSdkVersion 28
+    compileSdkVersion 33
+    buildToolsVersion "33.0.0"
 ```
 ## Run Release APK on emulator/phone
 > source Build_Release_APK.sh
