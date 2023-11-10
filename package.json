@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@gemedico/react-native-sounds": "^1.0.2",
-    "@react-native-async-storage/async-storage": "^1.18.2",
+    "@react-native-async-storage/async-storage": "^1.19.4",
     "react": "18.2.0",
     "react-native": "0.71.11",
-    "react-native-device-info": "^10.6.0"
+    "react-native-device-info": "^10.11.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

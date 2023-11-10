@@ -48,6 +48,10 @@ Regarding main project 'react-native-device-info', please refer to 'https://gith
 Regarding main project '@gemedico/react-native-sounds', please refer to 'https://github.com/Gemedico/react-native-sounds'.  
 Regarding main project '@react-native-async-storage/async-storage', please refer to 'https://github.com/react-native-async-storage/async-storage'.  
 
+### Attribution 
+
+<a href="https://www.flaticon.com/free-icons/battery-bar" title="battery bar icons">Battery bar icons created by Freepik - Flaticon</a>
+
 
 
 
